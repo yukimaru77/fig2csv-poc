@@ -46,6 +46,8 @@ uv run python scripts/run_pipeline.py data/samples/sample_chart.png --output-dir
 - `outputs/.../axes_overlay.png` : 検出された軸の重ね描き画像
 - `outputs/.../summary_overlay.png` : 軸・OCR bbox・calibration point・対応ズレをまとめて可視化した画像
 - `outputs/.../result.json` : OCR, 軸, キャリブレーション点, 比較結果
+- `outputs/external_hf_chart_detector/overlay.png` : 既存 Hugging Face モデル適用結果
+- `outputs/external_hf_chart_detector/results.json` : 既存 Hugging Face モデルの検出結果
 
 ## 現在の成果
 
@@ -54,6 +56,7 @@ uv run python scripts/run_pipeline.py data/samples/sample_chart.png --output-dir
 - OCR による calibration point 候補抽出を実装
 - 両者のピクセル差比較を JSON で保存
 - サンプル画像 `data/samples/sample_chart.png` に対する実行結果を `docs/results_sample1.md` に整理
+- 既存の外部深層学習モデル `luke-harriman/chart_object_detection` を実際に適用して結果を保存
 
 ## 制約
 

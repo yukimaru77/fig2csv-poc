@@ -6,6 +6,9 @@ outputs/
 !outputs/sample1/axes_overlay.png
 !outputs/sample1/summary_overlay.png
 !outputs/sample1/result.json
+!outputs/external_hf_chart_detector/
+!outputs/external_hf_chart_detector/overlay.png
+!outputs/external_hf_chart_detector/results.json
 data/raw/
 *.pt
 *.pth
