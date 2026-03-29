@@ -9,6 +9,11 @@ outputs/
 !outputs/external_hf_chart_detector/
 !outputs/external_hf_chart_detector/overlay.png
 !outputs/external_hf_chart_detector/results.json
+!outputs/chartdete_sample/
+!outputs/chartdete_sample/overlay.png
+!outputs/chartdete_sample/raw_detections.json
+!outputs/chartdete_sample/summary.json
+!outputs/chartdete_sample/README.md
 data/raw/
 *.pt
 *.pth
