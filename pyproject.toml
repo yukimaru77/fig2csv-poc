@@ -1,0 +1,33 @@
+[project]
+name = "fig2csv-poc"
+version = "0.1.0"
+description = "PoC for recovering calibration points from line charts back to CSV"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "numpy>=2.1.0",
+  "pydantic>=2.10.0",
+  "pyyaml>=6.0.2",
+  "matplotlib>=3.9.0",
+  "easyocr>=1.7.2",
+  "pandas>=2.2.0",
+  "scikit-image>=0.24.0",
+  "scipy>=1.14.0",
+  "tqdm>=4.66.0",
+  "opencv-python-headless==4.10.0.84",
+]
+
+[project.optional-dependencies]
+train = [
+  "ultralytics>=8.3.0",
+]
+
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fig2csv"]
