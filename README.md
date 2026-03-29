@@ -44,6 +44,7 @@ uv run python scripts/run_pipeline.py data/samples/sample_chart.png --output-dir
 ## 出力
 
 - `outputs/.../axes_overlay.png` : 検出された軸の重ね描き画像
+- `outputs/.../summary_overlay.png` : 軸・OCR bbox・calibration point・対応ズレをまとめて可視化した画像
 - `outputs/.../result.json` : OCR, 軸, キャリブレーション点, 比較結果
 
 ## 現在の成果

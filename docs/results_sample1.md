@@ -11,6 +11,10 @@
 - y軸目盛り `24, 22, 20, 18, 16, 14, 12, 10` を取得
 - z軸では `10` のみ誤って拾われた
 
+## 可視化成果物
+- `outputs/sample1/axes_overlay.png`: 軸検知のみの重ね描き
+- `outputs/sample1/summary_overlay.png`: 軸・OCR bbox・OCR calibration point・vision calibration point・対応ズレをまとめて表示
+
 ## 所見
 - 軸そのものの位置推定は PoC として十分うまくいった
 - OCR からの calibration point は y軸でかなり良好

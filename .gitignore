@@ -2,6 +2,10 @@
 __pycache__/
 *.pyc
 outputs/
+!outputs/sample1/
+!outputs/sample1/axes_overlay.png
+!outputs/sample1/summary_overlay.png
+!outputs/sample1/result.json
 data/raw/
 *.pt
 *.pth

@@ -10,6 +10,7 @@ import numpy as np
 from .compare import compare_points
 from .detectors import detect_axes_classical, render_axis_overlay
 from .ocr_points import extract_calibration_points_from_ocr, synthesize_vision_calibration_points, to_ocr_ticks
+from .visualize import draw_summary_overlay
 
 
 def run_pipeline(image_path: str, output_dir: str = "outputs") -> dict:
@@ -34,6 +35,10 @@ def run_pipeline(image_path: str, output_dir: str = "outputs") -> dict:
     vision_points = synthesize_vision_calibration_points(axes)
     comparisons = compare_points(vision_points, ocr_points)
 
+    summary_overlay = draw_summary_overlay(overlay, ocr_ticks, ocr_points, vision_points, comparisons)
+    summary_overlay_path = output_root / "summary_overlay.png"
+    cv2.imwrite(str(summary_overlay_path), summary_overlay)
+
     result = {
         "image_path": image_path,
         "axes": [a.model_dump() for a in axes],
@@ -41,7 +46,10 @@ def run_pipeline(image_path: str, output_dir: str = "outputs") -> dict:
         "ocr_calibration_points": [p.model_dump() for p in ocr_points],
         "vision_calibration_points": [p.model_dump() for p in vision_points],
         "comparisons": [c.model_dump() for c in comparisons],
-        "artifacts": {"axes_overlay": str(overlay_path)},
+        "artifacts": {
+            "axes_overlay": str(overlay_path),
+            "summary_overlay": str(summary_overlay_path),
+        },
     }
 
     result_path = output_root / "result.json"

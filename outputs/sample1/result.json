@@ -1,0 +1,649 @@
+{
+  "image_path": "data/samples/sample_chart.png",
+  "axes": [
+    {
+      "axis_name": "y_axis",
+      "p1": {
+        "x": 87.0,
+        "y": 665.0
+      },
+      "p2": {
+        "x": 87.0,
+        "y": 48.0
+      },
+      "score": 617.0,
+      "source": "classical"
+    },
+    {
+      "axis_name": "z_axis",
+      "p1": {
+        "x": 87.0,
+        "y": 663.0
+      },
+      "p2": {
+        "x": 1082.0,
+        "y": 663.0
+      },
+      "score": 995.0,
+      "source": "classical"
+    }
+  ],
+  "ocr_ticks": [
+    {
+      "text": "Sample Line Chart for fig2csv PoC",
+      "confidence": 0.8157632496935471,
+      "center": {
+        "x": 585.5,
+        "y": 28.5
+      },
+      "bbox": [
+        [
+          354.0,
+          10.0
+        ],
+        [
+          817.0,
+          10.0
+        ],
+        [
+          817.0,
+          47.0
+        ],
+        [
+          354.0,
+          47.0
+        ]
+      ]
+    },
+    {
+      "text": "24",
+      "confidence": 0.9999988198884456,
+      "center": {
+        "x": 60.0,
+        "y": 115.0
+      },
+      "bbox": [
+        [
+          44.0,
+          102.0
+        ],
+        [
+          76.0,
+          102.0
+        ],
+        [
+          76.0,
+          128.0
+        ],
+        [
+          44.0,
+          128.0
+        ]
+      ]
+    },
+    {
+      "text": "22",
+      "confidence": 0.9999996628252286,
+      "center": {
+        "x": 60.0,
+        "y": 189.0
+      },
+      "bbox": [
+        [
+          44.0,
+          176.0
+        ],
+        [
+          76.0,
+          176.0
+        ],
+        [
+          76.0,
+          202.0
+        ],
+        [
+          44.0,
+          202.0
+        ]
+      ]
+    },
+    {
+      "text": "20",
+      "confidence": 0.9999987355947788,
+      "center": {
+        "x": 60.0,
+        "y": 264.0
+      },
+      "bbox": [
+        [
+          44.0,
+          252.0
+        ],
+        [
+          76.0,
+          252.0
+        ],
+        [
+          76.0,
+          276.0
+        ],
+        [
+          44.0,
+          276.0
+        ]
+      ]
+    },
+    {
+      "text": "18",
+      "confidence": 0.8202824928515278,
+      "center": {
+        "x": 60.0,
+        "y": 339.0
+      },
+      "bbox": [
+        [
+          44.0,
+          326.0
+        ],
+        [
+          76.0,
+          326.0
+        ],
+        [
+          76.0,
+          352.0
+        ],
+        [
+          44.0,
+          352.0
+        ]
+      ]
+    },
+    {
+      "text": "16",
+      "confidence": 0.9999996628252286,
+      "center": {
+        "x": 60.0,
+        "y": 413.0
+      },
+      "bbox": [
+        [
+          44.0,
+          400.0
+        ],
+        [
+          76.0,
+          400.0
+        ],
+        [
+          76.0,
+          426.0
+        ],
+        [
+          44.0,
+          426.0
+        ]
+      ]
+    },
+    {
+      "text": "14",
+      "confidence": 0.9735918312796965,
+      "center": {
+        "x": 58.0,
+        "y": 488.0
+      },
+      "bbox": [
+        [
+          42.0,
+          476.0
+        ],
+        [
+          74.0,
+          476.0
+        ],
+        [
+          74.0,
+          500.0
+        ],
+        [
+          42.0,
+          500.0
+        ]
+      ]
+    },
+    {
+      "text": "12",
+      "confidence": 0.9999983141264758,
+      "center": {
+        "x": 59.0,
+        "y": 563.0
+      },
+      "bbox": [
+        [
+          44.0,
+          550.0
+        ],
+        [
+          74.0,
+          550.0
+        ],
+        [
+          74.0,
+          576.0
+        ],
+        [
+          44.0,
+          576.0
+        ]
+      ]
+    },
+    {
+      "text": "10",
+      "confidence": 0.9999973026027609,
+      "center": {
+        "x": 60.0,
+        "y": 637.0
+      },
+      "bbox": [
+        [
+          44.0,
+          624.0
+        ],
+        [
+          76.0,
+          624.0
+        ],
+        [
+          76.0,
+          650.0
+        ],
+        [
+          44.0,
+          650.0
+        ]
+      ]
+    }
+  ],
+  "ocr_calibration_points": [
+    {
+      "axis_name": "y_axis",
+      "pixel": {
+        "x": 87.0,
+        "y": 115.0
+      },
+      "value": "24",
+      "source": "ocr"
+    },
+    {
+      "axis_name": "y_axis",
+      "pixel": {
+        "x": 87.0,
+        "y": 189.0
+      },
+      "value": "22",
+      "source": "ocr"
+    },
+    {
+      "axis_name": "y_axis",
+      "pixel": {
+        "x": 87.0,
+        "y": 264.0
+      },
+      "value": "20",
+      "source": "ocr"
+    },
+    {
+      "axis_name": "y_axis",
+      "pixel": {
+        "x": 87.0,
+        "y": 339.0
+      },
+      "value": "18",
+      "source": "ocr"
+    },
+    {
+      "axis_name": "y_axis",
+      "pixel": {
+        "x": 87.0,
+        "y": 413.0
+      },
+      "value": "16",
+      "source": "ocr"
+    },
+    {
+      "axis_name": "y_axis",
+      "pixel": {
+        "x": 87.0,
+        "y": 488.0
+      },
+      "value": "14",
+      "source": "ocr"
+    },
+    {
+      "axis_name": "y_axis",
+      "pixel": {
+        "x": 87.0,
+        "y": 563.0
+      },
+      "value": "12",
+      "source": "ocr"
+    },
+    {
+      "axis_name": "y_axis",
+      "pixel": {
+        "x": 87.0,
+        "y": 637.0
+      },
+      "value": "10",
+      "source": "ocr"
+    },
+    {
+      "axis_name": "z_axis",
+      "pixel": {
+        "x": 60.0,
+        "y": 663.0
+      },
+      "value": "10",
+      "source": "ocr"
+    }
+  ],
+  "vision_calibration_points": [
+    {
+      "axis_name": "y_axis",
+      "pixel": {
+        "x": 87.0,
+        "y": 48.0
+      },
+      "value": null,
+      "source": "vision_model"
+    },
+    {
+      "axis_name": "y_axis",
+      "pixel": {
+        "x": 87.0,
+        "y": 171.4
+      },
+      "value": null,
+      "source": "vision_model"
+    },
+    {
+      "axis_name": "y_axis",
+      "pixel": {
+        "x": 87.0,
+        "y": 294.8
+      },
+      "value": null,
+      "source": "vision_model"
+    },
+    {
+      "axis_name": "y_axis",
+      "pixel": {
+        "x": 87.0,
+        "y": 418.20000000000005
+      },
+      "value": null,
+      "source": "vision_model"
+    },
+    {
+      "axis_name": "y_axis",
+      "pixel": {
+        "x": 87.0,
+        "y": 541.6
+      },
+      "value": null,
+      "source": "vision_model"
+    },
+    {
+      "axis_name": "y_axis",
+      "pixel": {
+        "x": 87.0,
+        "y": 665.0
+      },
+      "value": null,
+      "source": "vision_model"
+    },
+    {
+      "axis_name": "z_axis",
+      "pixel": {
+        "x": 87.0,
+        "y": 663.0
+      },
+      "value": null,
+      "source": "vision_model"
+    },
+    {
+      "axis_name": "z_axis",
+      "pixel": {
+        "x": 286.0,
+        "y": 663.0
+      },
+      "value": null,
+      "source": "vision_model"
+    },
+    {
+      "axis_name": "z_axis",
+      "pixel": {
+        "x": 485.0,
+        "y": 663.0
+      },
+      "value": null,
+      "source": "vision_model"
+    },
+    {
+      "axis_name": "z_axis",
+      "pixel": {
+        "x": 684.0,
+        "y": 663.0
+      },
+      "value": null,
+      "source": "vision_model"
+    },
+    {
+      "axis_name": "z_axis",
+      "pixel": {
+        "x": 883.0,
+        "y": 663.0
+      },
+      "value": null,
+      "source": "vision_model"
+    },
+    {
+      "axis_name": "z_axis",
+      "pixel": {
+        "x": 1082.0,
+        "y": 663.0
+      },
+      "value": null,
+      "source": "vision_model"
+    }
+  ],
+  "comparisons": [
+    {
+      "axis_name": "y_axis",
+      "vision_pixel": {
+        "x": 87.0,
+        "y": 48.0
+      },
+      "ocr_pixel": null,
+      "dx": null,
+      "dy": null,
+      "euclidean": null
+    },
+    {
+      "axis_name": "y_axis",
+      "vision_pixel": {
+        "x": 87.0,
+        "y": 171.4
+      },
+      "ocr_pixel": {
+        "x": 87.0,
+        "y": 189.0
+      },
+      "dx": 0.0,
+      "dy": 17.599999999999994,
+      "euclidean": 17.599999999999994
+    },
+    {
+      "axis_name": "y_axis",
+      "vision_pixel": {
+        "x": 87.0,
+        "y": 294.8
+      },
+      "ocr_pixel": {
+        "x": 87.0,
+        "y": 264.0
+      },
+      "dx": 0.0,
+      "dy": -30.80000000000001,
+      "euclidean": 30.80000000000001
+    },
+    {
+      "axis_name": "y_axis",
+      "vision_pixel": {
+        "x": 87.0,
+        "y": 418.20000000000005
+      },
+      "ocr_pixel": {
+        "x": 87.0,
+        "y": 413.0
+      },
+      "dx": 0.0,
+      "dy": -5.2000000000000455,
+      "euclidean": 5.2000000000000455
+    },
+    {
+      "axis_name": "y_axis",
+      "vision_pixel": {
+        "x": 87.0,
+        "y": 541.6
+      },
+      "ocr_pixel": {
+        "x": 87.0,
+        "y": 563.0
+      },
+      "dx": 0.0,
+      "dy": 21.399999999999977,
+      "euclidean": 21.399999999999977
+    },
+    {
+      "axis_name": "y_axis",
+      "vision_pixel": {
+        "x": 87.0,
+        "y": 665.0
+      },
+      "ocr_pixel": {
+        "x": 87.0,
+        "y": 637.0
+      },
+      "dx": 0.0,
+      "dy": -28.0,
+      "euclidean": 28.0
+    },
+    {
+      "axis_name": "y_axis",
+      "vision_pixel": null,
+      "ocr_pixel": {
+        "x": 87.0,
+        "y": 115.0
+      },
+      "dx": null,
+      "dy": null,
+      "euclidean": null
+    },
+    {
+      "axis_name": "y_axis",
+      "vision_pixel": null,
+      "ocr_pixel": {
+        "x": 87.0,
+        "y": 339.0
+      },
+      "dx": null,
+      "dy": null,
+      "euclidean": null
+    },
+    {
+      "axis_name": "y_axis",
+      "vision_pixel": null,
+      "ocr_pixel": {
+        "x": 87.0,
+        "y": 488.0
+      },
+      "dx": null,
+      "dy": null,
+      "euclidean": null
+    },
+    {
+      "axis_name": "z_axis",
+      "vision_pixel": {
+        "x": 87.0,
+        "y": 663.0
+      },
+      "ocr_pixel": {
+        "x": 60.0,
+        "y": 663.0
+      },
+      "dx": -27.0,
+      "dy": 0.0,
+      "euclidean": 27.0
+    },
+    {
+      "axis_name": "z_axis",
+      "vision_pixel": {
+        "x": 286.0,
+        "y": 663.0
+      },
+      "ocr_pixel": null,
+      "dx": null,
+      "dy": null,
+      "euclidean": null
+    },
+    {
+      "axis_name": "z_axis",
+      "vision_pixel": {
+        "x": 485.0,
+        "y": 663.0
+      },
+      "ocr_pixel": null,
+      "dx": null,
+      "dy": null,
+      "euclidean": null
+    },
+    {
+      "axis_name": "z_axis",
+      "vision_pixel": {
+        "x": 684.0,
+        "y": 663.0
+      },
+      "ocr_pixel": null,
+      "dx": null,
+      "dy": null,
+      "euclidean": null
+    },
+    {
+      "axis_name": "z_axis",
+      "vision_pixel": {
+        "x": 883.0,
+        "y": 663.0
+      },
+      "ocr_pixel": null,
+      "dx": null,
+      "dy": null,
+      "euclidean": null
+    },
+    {
+      "axis_name": "z_axis",
+      "vision_pixel": {
+        "x": 1082.0,
+        "y": 663.0
+      },
+      "ocr_pixel": null,
+      "dx": null,
+      "dy": null,
+      "euclidean": null
+    }
+  ],
+  "artifacts": {
+    "axes_overlay": "outputs/sample1/axes_overlay.png",
+    "summary_overlay": "outputs/sample1/summary_overlay.png"
+  }
+}
